@@ -3,7 +3,7 @@ plugins {
     id 'org.sonarqube' version "3.4.0.2513"
 }
 
-group 'org.lab3'
+group 'org.qalab4'
 version '1.0-SNAPSHOT'
 
 repositories {
