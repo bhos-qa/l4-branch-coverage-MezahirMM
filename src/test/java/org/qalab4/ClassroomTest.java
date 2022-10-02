@@ -30,4 +30,4 @@ class ClassroomTest {
         assertEquals(36, classroom.square(6), "Integer square");
     }
 }
-#checking something
+// checking something
