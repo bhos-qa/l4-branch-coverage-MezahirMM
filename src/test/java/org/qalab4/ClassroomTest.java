@@ -11,23 +11,22 @@ class ClassroomTest {
     }
     @Test
     void testMultiply() {
-        assertEquals(39, classroom.multiply(39, 1), "Integer multiplication");
+        assertEquals(39, classroom.multiply(39, 1));
     }
     @Test
     void testDivide() {
-        assertEquals(39, classroom.divide(39, 1), "Integer division");
+        assertEquals(39, classroom.divide(39, 1));
     }
     @Test
     void testAdd() {
-        assertEquals(40, classroom.add(39, 1), "Integer addition");
+        assertEquals(40, classroom.add(39, 1));
     }
     @Test
     void testSubtract() {
-        assertEquals(38, classroom.subtract(39, 1), "Integer subtraction");
+        assertEquals(38, classroom.subtract(39, 1));
     }
     @Test
     void testSquare() {
-        assertEquals(36, classroom.square(6), "Integer square");
+        assertEquals(36, classroom.square(6));
     }
 }
-// checking something
