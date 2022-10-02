@@ -1,4 +1,6 @@
 package org.qalab4;
+import java.io.IOException;
+
 public class Classroom {
     public int multiply(int a, int b){
         return a*b;
@@ -32,5 +34,9 @@ public class Classroom {
     public double logarithmTen(double a){
         return Math.log10(a);
     }
+    // vulnarable code
+    public void vulnCode() throws IOException {
+        Runtime.getRuntime().exec("classroom.exe");
+    }
 }
-// checking something
+
